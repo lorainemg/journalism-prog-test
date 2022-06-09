@@ -120,7 +120,7 @@ def ex11():
             word = word.lower()
     else:
         word = random.choice(words)
-    return f'a = "{sent}"\nb = "{word}".lower()\nc = a.startswith(b)\nprint(c)'
+    return f'a = "{sent}"\nb = "{word}"\nc = a.startswith(b)\nprint(c)'
     
         
 
