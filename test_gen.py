@@ -78,7 +78,7 @@ def ex6():
     word = random.choice(words)
     sent = random.choice(sentences)
     word_in_sent = sent.split()
-    phrase_idx = random.randint(0, len(word_in_sent)-2)
+    phrase_idx = random.randint(0, len(word_in_sent)-3)
     phrase = ' '.join(word_in_sent[phrase_idx:phrase_idx+2])
     return f'a = "{sent}"\nb = "{word}"\nc = a.replace("{phrase}", b)\nprint(c)'
    
@@ -116,7 +116,7 @@ def ex11():
     sent = random.choice(sentences)
     if random.uniform(0, 1) <= 0.5:
         word = sent.split()[0]
-        if random.uniform(0, 1) <= 0.5:
+        if random.uniform(0, 1) <= 0.3:
             word = word.lower()
     else:
         word = random.choice(words)
