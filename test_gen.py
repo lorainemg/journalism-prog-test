@@ -28,7 +28,8 @@ words = ['MANERA', 'supe', 'segunda', 'cosa', 'importante', 'planeta', 'origen',
 
 functions = ["isalpha()", "isnumeric()", "islower()", "isupper()","capitalize()", "lower()", "upper()"]
 
-num_operators = ["+", "-", "*", "==", "<", ">"]
+num_operators = ["+", "-", "*"]
+num_comp = ["==", "<", ">", ">=", "<="]
 
 str_operators = ["+", "in"]
 
@@ -58,7 +59,6 @@ def ex2():
 def ex3():
     word1 = random.choice(words)
     word2 = random.choice(words)
-    n = random.randint(0, len(word1) + len(word2))
     return f'a = "{word1}" + "{word2}"\nprint(a)'
     
 def ex4():
@@ -73,14 +73,28 @@ def ex5():
 def ex6():
     word = random.choice(words)
     sent = random.choice(sentences)
-    a = random.randint(0, len(sent)-1)
     word_in_sent = sent.split()
     phrase_idx = random.randint(0, len(word_in_sent)-2)
     phrase = ' '.join(word_in_sent[phrase_idx:phrase_idx+2])
     return f'a = "{sent}"\nb = "{word}"\nc = a.replace("{phrase}", b)\nprint(c)'
+   
+def ex7():
+    word = random.choice(words)
+    prob = random.uniform(0, 1) 
+    if  prob < 0.33:
+        word += str(random.randint(0, 20))
+    elif prob < 0.66:
+        word = random.randint(0, 1000)
+    function_name = random.choice(["isalpha()", "isnumeric()"])
+    return f'a = "{word}"\nb = a.{function_name}\nprint(b)'
         
+def ex8():
+    word = random.choice(words)
+    n = random.randint(1, len(word))
+    comp = random.choice(num_comp)
+    return f'a = "{word}"\nb = len(a) {comp} {n}\nprint(b)'
     
-print(ex6())
+print(ex8())
 
 # a=sentence print(sentence) 1
 # a=word print(len(a)) 1
