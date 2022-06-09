@@ -94,7 +94,33 @@ def ex8():
     comp = random.choice(num_comp)
     return f'a = "{word}"\nb = len(a) {comp} {n}\nprint(b)'
     
-print(ex2())
+def ex9():
+    n1 = random.uniform(0, 10)
+    n2 = random.randint(0, 10)
+    op = random.choice(num_operators)
+    return f'a = {n1:.1f}\nb = {n2}\nc = a {op} b\nprint(c)'
+
+def ex10():
+    sent = random.choice(sentences)
+    if random.uniform(0, 1) <= 0.5:
+        word = sent.split()[-1]             
+    else:
+        word = random.choice(words)
+    return f'a = "{sent}"\nb = "{word}"\nc = a.endswith(b)\nprint(c)'
+
+def ex11():
+    sent = random.choice(sentences)
+    if random.uniform(0, 1) <= 0.5:
+        word = sent.split()[0]
+        if random.uniform(0, 1) <= 0.5:
+            word = word.lower()
+    else:
+        word = random.choice(words)
+    return f'a = "{sent}"\nb = "{word}".lower()\nc = a.startswith(b)\nprint(c)'
+    
+        
+
+print(ex11())
 
 # a=sentence print(sentence) 1
 # a=word print(len(a)) 1
