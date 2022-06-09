@@ -53,25 +53,34 @@ def ex2():
     if a == b:
         a, b = random.randint(0, len(word)-1), random.randint(0, len(word)-1)
     a, b = min(a, b), max(a, b)
-    return f'''a = "{word}"[{a}:{b}]\nprint(a)'''
+    return f'a = "{word}"[{a}:{b}]\nprint(a)'
 
 def ex3():
     word1 = random.choice(words)
     word2 = random.choice(words)
     n = random.randint(0, len(word1) + len(word2))
-    return f'''a = "{word1}" + "{word2}"\nprint(a)'''
+    return f'a = "{word1}" + "{word2}"\nprint(a)'
     
 def ex4():
     word = random.choice(words)
-    return f'''a = "{word}".capitalize()\nb = a.islower()\nprint(b)'''    
+    return f'a = "{word}".capitalize()\nb = a.islower()\nprint(b)'
     
 def ex5():
     word = random.choice(words)
     sent = random.choice(sentences)
-    return f'''a = "{word}".lower()\nb = "{sent}"\nc = a in b\nprint(c)'''
+    return f'a = "{word}".lower()\nb = "{sent}"\nc = a in b\nprint(c)'
     
+def ex6():
+    word = random.choice(words)
+    sent = random.choice(sentences)
+    a = random.randint(0, len(sent)-1)
+    word_in_sent = sent.split()
+    phrase_idx = random.randint(0, len(word_in_sent)-2)
+    phrase = ' '.join(word_in_sent[phrase_idx:phrase_idx+2])
+    return f'a = "{sent}"\nb = "{word}"\nc = a.replace("{phrase}", b)\nprint(c)'
+        
     
-print(ex5())
+print(ex6())
 
 # a=sentence print(sentence) 1
 # a=word print(len(a)) 1
