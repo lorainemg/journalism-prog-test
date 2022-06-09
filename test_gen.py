@@ -45,11 +45,13 @@ import random
 
 def ex1():
     sent = random.choice(sentences)
-    return f'print("{sent}")'
+    return f'\nprint("{sent}".upper())'
 
 def ex2():
     word = random.choice(words)
     a, b = random.randint(0, len(word)-1), random.randint(0, len(word)-1)
+    if a == b:
+        a, b = random.randint(0, len(word)-1), random.randint(0, len(word)-1)
     a, b = min(a, b), max(a, b)
     return f'''a = "{word}"[{a}:{b}]\nprint(a)'''
 
