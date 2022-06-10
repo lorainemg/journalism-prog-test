@@ -9,7 +9,7 @@ test = ""
 for ex in exercises:
     # test += "```python\n"
     test += ex() + "\n\n"
-    # test += "```\n"
+    # test += "```\n\n"
 
 with open('test.txt', 'w') as f:
     f.write(test)
