@@ -38,17 +38,12 @@ num_comp = ["==", "<", ">", ">=", "<="]
 str_operators = ["+", "in"]
 
 
-for i in range(len(words)):
-    if i % 30 == 0:
-        words[i] = words[i].upper()
-
-
 ## Exercises
 import random
 
 def ex1():
     word = random.choice(words)
-    return f'a = "{word}"\nb = a.upper()\nprint(b)'
+    return f'a = "{word}"\nb = a.upper()\nprint(b)\n'
 
 def ex2():
     word = random.choice(words)
@@ -58,59 +53,58 @@ def ex2():
     else:
         b = a + random.randint(1, len(word) - a - 1)
     a, b = min(a, b), max(a, b)
-    return f'a = "{word}"\nb = a[{a}:{b}]\nprint(b)'
+    return f'a = "{word}"\nb = a[{a}:{b}]\nprint(b)\n'
 
 def ex3():
     word1 = random.choice(words)
     word2 = random.choice(words)
-    return f'a = "{word1}" + "{word2}"\nprint(a)'
-    
+    return f'a = "{word1}" + "{word2}"\nprint(a)\n'
+
 def ex4():
     word = random.choice(words)
-    return f'a = "{word}".capitalize()\nb = a.islower()\nprint(b)'
-    
+    return f'a = "{word}".capitalize()\nb = a.islower()\nprint(b)\n'
+
 def ex5():
     word = random.choice(stopw)
     sent = random.choice(sentences)
-    return f'a = "{word}".lower()\nb = "{sent}"\nc = a in b\nprint(c)'
-    
+    return f'a = "{word}".lower()\nb = "{sent}"\nc = a in b\nprint(c)\n'
+
 def ex6():
     word = random.choice(words)
     sent = random.choice(sentences)
     word_in_sent = sent.split()
     phrase_idx = random.randint(0, len(word_in_sent)-3)
     phrase = ' '.join(word_in_sent[phrase_idx:phrase_idx+2])
-    return f'a = "{sent}"\nb = "{word}"\nc = a.replace("{phrase}", b)\nprint(c)'
-   
+    return f'a = "{sent}"\nb = "{word}"\nc = a.replace("{phrase}", b)\nprint(c)\n'
+
 def ex7():
     word = random.choice(words)
-    prob = random.uniform(0, 1) 
+    prob = random.uniform(0, 1)
     if  prob < 0.33:
         word += str(random.randint(0, 20))
     elif prob < 0.66:
         word = random.randint(0, 1000)
-    function_name = random.choice(["isalpha()", "isnumeric()"])
-    return f'a = "{word}"\nb = a.{function_name}\nprint(b)'
-        
+    return f'a = "{word}"\nb = a.isalpha()\nprint(b)\n'
+
 def ex8():
     word = random.choice(words)
     n = random.randint(1, len(word))
     comp = random.choice(num_comp)
-    return f'a = "{word}"\nb = len(a) {comp} {n}\nprint(b)'
-    
+    return f'a = "{word}"\nb = len(a) {comp} {n}\nprint(b)\n'
+
 def ex9():
     n1 = random.uniform(0, 10)
     n2 = random.randint(0, 10)
     op = random.choice(num_operators)
-    return f'a = {n1:.1f}\nb = {n2}\nc = a {op} b\nprint(c)'
+    return f'a = {n1:.1f}\nb = {n2}\nc = a {op} b\nprint(c)\n'
 
 def ex10():
     sent = random.choice(sentences)
     if random.uniform(0, 1) <= 0.5:
-        word = sent.split()[-1]             
+        word = sent.split()[-1]
     else:
         word = random.choice(words)
-    return f'a = "{sent}"\nb = "{word}"\nc = a.endswith(b)\nprint(c)'
+    return f'a = "{sent}"\nb = "{word}"\nc = a.endswith(b)\nprint(c)\n'
 
 def ex11():
     sent = random.choice(sentences)
@@ -120,11 +114,55 @@ def ex11():
             word = word.lower()
     else:
         word = random.choice(words)
-    return f'a = "{sent}"\nb = "{word}"\nc = a.startswith(b)\nprint(c)'
-    
-        
+    return f'a = "{sent}"\nb = "{word}"\nc = a.startswith(b)\nprint(c)\n'
 
-print(ex1())
+def ex12():
+    word = random.choice(words)
+    return f'a = "{word}"\nb = a.lower()\nprint(b)\n'
+
+def ex13():
+    word = random.choice(words)
+    return f'a = "{word}"\nb = a.capitalize()\nprint(b)\n'
+
+def ex14():
+    word = random.choice(words)
+    return f'a = "{word}"\nb = a.islower()\nprint(b)\n'
+
+def ex15():
+    word = random.choice(words)
+    prob = random.uniform(0, 1)
+    if  prob < 0.33:
+        word += str(random.randint(0, 20))
+    elif prob < 0.66:
+        word = random.randint(0, 1000)
+    return f'a = "{word}"\nb = a.isnumeric()\nprint(b)\n'
+
+def ex16():
+    word = random.choice(words)
+    size = len(word)
+    return f'a = "{word}"\nb = {size}\nprint(f"La palabra ' + '{a} tiene {b} letras")\n'
+
+def ex17():
+    word = random.choice(words)
+    a = random.randint(1, len(word))
+    return f'a = "{word}"\nb = a[{a}]\nprint(b)\n'
+
+def ex18():
+    word = random.choice(words)
+    a = random.randint(1, len(word))
+    return f'a = "{word}"\nb = a[-{a}]\nprint(b)\n'
+
+def ex19():
+    word = random.choice(words)
+    a = random.randint(0, len(word)-1)
+    return f'a = "{word}"\nb = a[{a}:]\nprint(b)\n'
+
+def ex20():
+    word = random.choice(words)
+    a = random.randint(0, len(word)-1)
+    return f'a = "{word}"\nb = a[:{a}]\nprint(b)\n'
+
+# print(ex19())
 
 # a=sentence print(sentence) 1
 # a=word print(len(a)) 1
