@@ -64,7 +64,7 @@ def write_document(pathname):
     change_page_margin(doc, 1.20)
     change_line_spacing(doc)
     set_font_style(doc)
-    doc.save('tests/demo.docx')
+    doc.save('tests/Pruebas.docx')
 
 
 if __name__ == '__main__':

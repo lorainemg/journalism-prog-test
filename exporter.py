@@ -19,5 +19,5 @@ def create_tests(n: int):
         create_test(i)
         
 if __name__ == '__main__':
-    create_tests(2)
+    create_tests(60)
 
