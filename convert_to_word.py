@@ -46,7 +46,7 @@ def create_intro(doc):
     doc.add_heading('TC de Programación', 0)
     doc.add_paragraph('Nombre: _____________________________________________________________________________________   No.: _____')
     p = doc.add_paragraph('')
-    p.add_run('1) Para cada uno de los siguientes códigos en Python, diga su salida:').bold = True
+    p.add_run('Para cada uno de los siguientes códigos en Python, diga su salida:').bold = True
     
 
 def write_document(pathname):

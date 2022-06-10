@@ -6,8 +6,8 @@ exercises = [ex1, ex2, ex3, ex4, ex5, ex6, ex7, ex8,ex9, ex10, ex11, ex12,ex13, 
 def create_test(i: int):
     random.shuffle(exercises)
     test = ""
-    for ex in exercises:
-        # test += "```python\n"
+    for j, ex in enumerate(exercises, 1):
+        test += f"{j}) "
         test += ex() + "\n\n"
         # test += "```\n\n"
         
