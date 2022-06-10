@@ -7,10 +7,10 @@ random.shuffle(exercises)
 test = ""
 
 for ex in exercises:
-    test += "```python\n"
-    test += ex() + "\n"
-    test += "```\n"
+    # test += "```python\n"
+    test += ex() + "\n\n"
+    # test += "```\n"
 
-with open('test.md', 'w') as f:
+with open('test.txt', 'w') as f:
     f.write(test)
 

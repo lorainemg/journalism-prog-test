@@ -21,7 +21,7 @@ def get_words(sentence):
 
     return non_important_words
 
-sentences = ['De esta manera supe una segunda cosa muy importante: su planeta de origen era apenas más grande que una casa', 'Esto no podía asombrarme mucho', 'Es difícil distinguirlos aun con la ayuda del telescopio', 'Cuando un astrónomo descubre uno de estos planetas, le da por nombre un número', 'Le llama, por ejemplo, el asteroide 3251', 'Tengo poderosas razones para creer que el planeta del cual venía el principito era el asteroide B 612', 'Este asteroide ha sido visto sólo una vez con el telescopio en 1909, por un astrónomo turco', 'Este astrónomo hizo una gran demostración de su descubrimiento en un congreso Internacional de Astronomía', 'Pero nadie le creyó a causa de su manera de vestir', 'Las personas mayores son así', 'Felizmente para la reputación del asteroide B 612, un dictador turco impuso a su pueblo, bajo pena de muerte, el vestido a la europea', 'Entonces el astrónomo volvió a dar cuenta de su descubrimiento en 1920 y como lucía un traje muy elegante, todo el mundo aceptó su demostración', 'Si les he contado de todos estos detalles sobre el asteroide B 612 y hasta les he confiado su número, es por consideración a las personas mayores', 'A los mayores les gustan las cifras', 'Cuando se les habla de un nuevo amigo, jamás preguntan sobre lo esencial del mismo', 'Pero nosotros, que sabemos comprender la vida, nos burlamos tranquilamente de los números', 'A mí me habría gustado más comenzar esta historia a la manera de los cuentos de hadas', 'Porque no me gusta que mi libro sea tomado a la ligera', 'Siento tanta pena al contar estos recuerdos', 'Hace ya seis años que mi amigo se fue con su cordero', 'Y si intento describirlo aquí es sólo con el fin de no olvidarlo', 'Es muy triste olvidar a un amigo', 'No todos han tenido un amigo', 'Y yo puedo llegar a ser como las personas mayores, que sólo se interesan por las cifras', 'Para evitar esto he comprado una caja de lápices de colores', 'Trataré de hacer retratos lo más parecido posibles, pero no estoy muy seguro de lograrlo', 'Uno saldrá bien y otro no tiene parecido alguno', 'En las proporciones me equivoco también un poco', 'Aquí el principito es demasiado grande y allá es demasiado pequeño', 'Dudo también sobre el color de su traje', 'Titubeo sobre esto y lo otro y unas veces sale bien y otras mal', 'Es posible, en  fin, que me equivoque sobre ciertos detalles muy importantes', 'Pero habrá que perdonármelo ya que mi amigo no me daba nunca muchas explicaciones', 'Me creía semejante a sí mismo y yo, desgraciadamente, no sé ver un cordero a través de una caja', 'Es posible que yo sea un poco como las personas mayores', 'He debido envejecer', 'Cada día yo aprendía algo nuevo sobre el planeta, sobre la partida y sobre el viaje', 'Esto venía suavemente al azar de las reflexiones', 'De esta manera tuve conocimiento al tercer día, del drama de los baobabs', 'Aprendí bien pronto a conocer mejor esta flor', 'Siempre había habido en el planeta del principito flores muy simples adornadas con una sola fila de pétalos que apenas ocupaban sitio y a nadie molestaban', 'Aparecían entre la hierba una mañana y por la tarde se extinguían', 'Aquella había germinado un día de una semilla llegada de quién sabe dónde', 'El principito había vigilado cuidadosamente desde el primer día aquella ramita', 'Podía ser una  nueva especie de Baobab', 'Pero el arbusto cesó pronto de crecer y comenzó a echar su flor', 'El principito observó el crecimiento de un enorme capullo', 'La flor no acababa de preparar su belleza al abrigo de su envoltura verde', 'Elegía con cuidado sus colores, se vestía lentamente y se ajustaba uno a uno sus pétalos', 'No quería salir ya ajada como las amapolas; quería aparecer en todo el esplendor de su belleza', 'Creo que el principito aprovechó la migración de una bandada de pájaros silvestres para su evasión', 'La mañana de la partida, puso en orden el planeta', 'Deshollinó cuidadosamente sus volcanes en actividad', 'Eran muy útiles para calentar el desayuno todas las mañanas', 'Tenía, además, un volcán extinguido', 'Deshollinó también el volcán extinguido, pues, como él decía, nunca se sabe lo que puede ocurrir', 'Si los volcanes están bien deshollinados, arden sus erupciones, lenta y regularmente', 'Las erupciones volcánicas son como el fuego de nuestras chimeneas', 'Es evidente que en nuestra Tierra no hay posibilidad de deshollinar los volcanes; los hombres somos demasiado pequeños', 'Por eso nos dan tantos disgustos', 'El principito arrancó también con un poco de melancolía los últimos brotes de baobabs', 'Creía que no iba a volver nunca', 'Pero todos aquellos trabajos le parecieron aquella mañana extremadamente dulces', 'Y cuando regó por última vez la flor y se dispuso a ponerla al abrigo del fanal, sintió ganas de llorar']
+sentences = ['De esta manera supe una segunda cosa muy importante: su planeta de origen era apenas más grande que una casa', 'Esto no podía asombrarme mucho', 'Es difícil distinguirlos aun con la ayuda del telescopio', 'Cuando un astrónomo descubre uno de estos planetas, le da por nombre un número', 'Le llama, por ejemplo, el asteroide 3251', 'Tengo poderosas razones para creer que el planeta del cual venía el principito era el asteroide B 612', 'Este asteroide ha sido visto sólo una vez con el telescopio en 1909, por un astrónomo turco', 'Este astrónomo hizo una gran demostración de su descubrimiento en un congreso Internacional de Astronomía', 'Pero nadie le creyó a causa de su manera de vestir', 'Las personas mayores son así', 'Felizmente para la reputación del asteroide B 612, un dictador turco impuso a su pueblo, bajo pena de muerte, el vestido a la europea', 'Si les he contado de todos estos detalles sobre el asteroide B 612 y hasta les he confiado su número, es por consideración a las personas mayores', 'A los mayores les gustan las cifras', 'Cuando se les habla de un nuevo amigo, jamás preguntan sobre lo esencial del mismo', 'Pero nosotros, que sabemos comprender la vida, nos burlamos tranquilamente de los números', 'A mí me habría gustado más comenzar esta historia a la manera de los cuentos de hadas', 'Porque no me gusta que mi libro sea tomado a la ligera', 'Siento tanta pena al contar estos recuerdos', 'Hace ya seis años que mi amigo se fue con su cordero', 'Y si intento describirlo aquí es sólo con el fin de no olvidarlo', 'Es muy triste olvidar a un amigo', 'No todos han tenido un amigo', 'Y yo puedo llegar a ser como las personas mayores, que sólo se interesan por las cifras', 'Para evitar esto he comprado una caja de lápices de colores', 'Trataré de hacer retratos lo más parecido posibles, pero no estoy muy seguro de lograrlo', 'Uno saldrá bien y otro no tiene parecido alguno', 'En las proporciones me equivoco también un poco', 'Aquí el principito es demasiado grande y allá es demasiado pequeño', 'Dudo también sobre el color de su traje', 'Titubeo sobre esto y lo otro y unas veces sale bien y otras mal', 'Es posible, en  fin, que me equivoque sobre ciertos detalles muy importantes', 'Pero habrá que perdonármelo ya que mi amigo no me daba nunca muchas explicaciones', 'Me creía semejante a sí mismo y yo, desgraciadamente, no sé ver un cordero a través de una caja', 'Es posible que yo sea un poco como las personas mayores', 'He debido envejecer', 'Cada día yo aprendía algo nuevo sobre el planeta, sobre la partida y sobre el viaje', 'Esto venía suavemente al azar de las reflexiones', 'De esta manera tuve conocimiento al tercer día, del drama de los baobabs', 'Aprendí bien pronto a conocer mejor esta flor', 'Siempre había habido en el planeta del principito flores muy simples adornadas con una sola fila de pétalos que apenas ocupaban sitio y a nadie molestaban', 'Aparecían entre la hierba una mañana y por la tarde se extinguían', 'Aquella había germinado un día de una semilla llegada de quién sabe dónde', 'El principito había vigilado cuidadosamente desde el primer día aquella ramita', 'Podía ser una  nueva especie de Baobab', 'Pero el arbusto cesó pronto de crecer y comenzó a echar su flor', 'El principito observó el crecimiento de un enorme capullo', 'La flor no acababa de preparar su belleza al abrigo de su envoltura verde', 'Elegía con cuidado sus colores, se vestía lentamente y se ajustaba uno a uno sus pétalos', 'No quería salir ya ajada como las amapolas; quería aparecer en todo el esplendor de su belleza', 'Creo que el principito aprovechó la migración de una bandada de pájaros silvestres para su evasión', 'La mañana de la partida, puso en orden el planeta', 'Deshollinó cuidadosamente sus volcanes en actividad', 'Eran muy útiles para calentar el desayuno todas las mañanas', 'Tenía, además, un volcán extinguido', 'Deshollinó también el volcán extinguido, pues, como él decía, nunca se sabe lo que puede ocurrir', 'Si los volcanes están bien deshollinados, arden sus erupciones, lenta y regularmente', 'Las erupciones volcánicas son como el fuego de nuestras chimeneas', 'Es evidente que en nuestra Tierra no hay posibilidad de deshollinar los volcanes; los hombres somos demasiado pequeños', 'Por eso nos dan tantos disgustos', 'El principito arrancó también con un poco de melancolía los últimos brotes de baobabs', 'Creía que no iba a volver nunca', 'Pero todos aquellos trabajos le parecieron aquella mañana extremadamente dulces', 'Y cuando regó por última vez la flor y se dispuso a ponerla al abrigo del fanal, sintió ganas de llorar']
 
 # words = []
 # for sent in sentences:
@@ -43,7 +43,7 @@ import random
 
 def ex1():
     word = random.choice(words)
-    return f'a = "{word}"\nb = a.upper()\nprint(b)\n'
+    return f'a = "{word}"\nprint(a.upper())\n'
 
 def ex2():
     word = random.choice(words)
@@ -53,7 +53,7 @@ def ex2():
     else:
         b = a + random.randint(1, len(word) - a - 1)
     a, b = min(a, b), max(a, b)
-    return f'a = "{word}"\nb = a[{a}:{b}]\nprint(b)\n'
+    return f'a = "{word}"\nprint(a[{a}:{b}])\n'
 
 def ex3():
     word1 = random.choice(words)
@@ -62,12 +62,12 @@ def ex3():
 
 def ex4():
     word = random.choice(words)
-    return f'a = "{word}".capitalize()\nb = a.islower()\nprint(b)\n'
+    return f'a = "{word}".capitalize()\nprint(a.islower())\n'
 
 def ex5():
     word = random.choice(stopw)
     sent = random.choice(sentences)
-    return f'a = "{word}".lower()\nb = "{sent}"\nc = a in b\nprint(c)\n'
+    return f'a = "{word}".lower()\nb = "{sent}"\nprint(a in b)\n'
 
 def ex6():
     word = random.choice(words)
@@ -75,7 +75,7 @@ def ex6():
     word_in_sent = sent.split()
     phrase_idx = random.randint(0, len(word_in_sent)-3)
     phrase = ' '.join(word_in_sent[phrase_idx:phrase_idx+2])
-    return f'a = "{sent}"\nb = "{word}"\nc = a.replace("{phrase}", b)\nprint(c)\n'
+    return f'a = "{sent}"\nb = "{word}"\nprint(a.replace("{phrase}", b))\n'
 
 def ex7():
     word = random.choice(words)
@@ -84,19 +84,19 @@ def ex7():
         word += str(random.randint(0, 20))
     elif prob < 0.66:
         word = random.randint(0, 1000)
-    return f'a = "{word}"\nb = a.isalpha()\nprint(b)\n'
+    return f'a = "{word}"\nprint(a.isalpha())\n'
 
 def ex8():
     word = random.choice(words)
     n = random.randint(1, len(word))
     comp = random.choice(num_comp)
-    return f'a = "{word}"\nb = len(a) {comp} {n}\nprint(b)\n'
+    return f'a = "{word}"\nprint(len(a) {comp} {n})\n'
 
 def ex9():
     n1 = random.uniform(0, 10)
     n2 = random.randint(0, 10)
     op = random.choice(num_operators)
-    return f'a = {n1:.1f}\nb = {n2}\nc = a {op} b\nprint(c)\n'
+    return f'a = {n1:.1f}\nb = {n2}\nprint(a {op} b)\n'
 
 def ex10():
     sent = random.choice(sentences)
@@ -104,7 +104,7 @@ def ex10():
         word = sent.split()[-1]
     else:
         word = random.choice(words)
-    return f'a = "{sent}"\nb = "{word}"\nc = a.endswith(b)\nprint(c)\n'
+    return f'a = "{sent}"\nb = "{word}"\nprint(a.endswith(b))\n'
 
 def ex11():
     sent = random.choice(sentences)
@@ -114,19 +114,19 @@ def ex11():
             word = word.lower()
     else:
         word = random.choice(words)
-    return f'a = "{sent}"\nb = "{word}"\nc = a.startswith(b)\nprint(c)\n'
+    return f'a = "{sent}"\nb = "{word}"\nprint(a.startswith(b))\n'
 
 def ex12():
     word = random.choice(words)
-    return f'a = "{word}"\nb = a.lower()\nprint(b)\n'
+    return f'a = "{word}"\nprint(a.lower())\n'
 
 def ex13():
     word = random.choice(words)
-    return f'a = "{word}"\nb = a.capitalize()\nprint(b)\n'
+    return f'a = "{word}"\nprint(a.capitalize())\n'
 
 def ex14():
     word = random.choice(words)
-    return f'a = "{word}"\nb = a.islower()\nprint(b)\n'
+    return f'a = "{word}"\nprint(a.islower())\n'
 
 def ex15():
     word = random.choice(words)
@@ -135,32 +135,32 @@ def ex15():
         word += str(random.randint(0, 20))
     elif prob < 0.66:
         word = random.randint(0, 1000)
-    return f'a = "{word}"\nb = a.isnumeric()\nprint(b)\n'
+    return f'a = "{word}"\nprint(a.isnumeric())\n'
 
 def ex16():
     word = random.choice(words)
     size = len(word)
-    return f'a = "{word}"\nb = {size}\nprint(f"La palabra ' + '{a} tiene {b} letras")\n'
+    return f'a = "{word}" \nb = {size}\nprint(f"La palabra ' + '{a} tiene {b} letras")\n'
 
 def ex17():
     word = random.choice(words)
     a = random.randint(1, len(word))
-    return f'a = "{word}"\nb = a[{a}]\nprint(b)\n'
+    return f'a = "{word}"\nprint(a[{a}])\n'
 
 def ex18():
     word = random.choice(words)
     a = random.randint(1, len(word))
-    return f'a = "{word}"\nb = a[-{a}]\nprint(b)\n'
+    return f'a = "{word}"\nprint(a[-{a}])\n'
 
 def ex19():
     word = random.choice(words)
     a = random.randint(0, len(word)-1)
-    return f'a = "{word}"\nb = a[{a}:]\nprint(b)\n'
+    return f'a = "{word}"\nprint(a[{a}:])\n'
 
 def ex20():
     word = random.choice(words)
     a = random.randint(0, len(word)-1)
-    return f'a = "{word}"\nb = a[:{a}]\nprint(b)\n'
+    return f'a = "{word}"\nprint(a[:{a}])\n'
 
 # print(ex19())
 
