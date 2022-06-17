@@ -143,7 +143,7 @@ def ex16():
 
 def ex17():
     word = random.choice(words)
-    a = random.randint(1, len(word))
+    a = random.randint(1, len(word)-1)
     return f'a = "{word}"\nprint(a[{a}])\n'
 
 def ex18():
