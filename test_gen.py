@@ -1,6 +1,5 @@
 import re
 
-from scipy import rand
 # from nltk.corpus import stopwords
 
 def get_words(sentence):

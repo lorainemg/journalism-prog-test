@@ -1,7 +1,7 @@
 import docx
 from docx.oxml.ns import qn
 from docx.enum.section import WD_SECTION
-from docx.enum.text import WD_LINE_SPACING
+from docx.enum.text import WD_LINE_SPACING, WD_ALIGN_PARAGRAPH
 from docx.enum.style import WD_STYLE_TYPE
 
 from docx.shared import Cm, Pt
